@@ -32,10 +32,11 @@ public class Main {
            arr3[i]=arr1[i];
         }
         int k=0;
-        for (int i= arr2.length-1;i< length;i++){
+        for (int i= arr1.length;i< length;i++){
             arr3[i]=arr2[k];
             k++;
         }
+        System.out.print("Day moi sau khi gop la:  ");
         show(arr3);
     }
     public static void show(int[] arr) {
